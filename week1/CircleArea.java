@@ -6,6 +6,6 @@ public class CircleArea {
         double area;
         area = Math.PI*(radius*radius);
         System.out.print(area);
-
+        input.close();
     }
 }
